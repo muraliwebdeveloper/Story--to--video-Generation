@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CM IDLE.. </title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+	
+<!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style1.css" />
+ 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+ 
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">	
+ <meta charset="utf-8">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<style>
+.container1{
+	padding-left:100px;
+	}	
+</style>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container1 d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>CM IDLE<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#video">Text-to-Video</a></li>
+          <li><a href="#image">Text-to-Image</a></li>
+          <li><a href="#audio">Text-to-Audio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="register.html">Registration</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+	<a class="btn-book-a-table" href="login.html">Login</a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+
+    </div>
+  </header><!-- End Header -->
+<div class="college">
+	<h3> <img src="images/logo.jpg" class="logo1"></h3>
+	<h2 class="title1">Sreenivasa Institute of technology and management studies </br><span class="subt">(Autonomus- NBA Accredited)<span><br><span class="subt1">chittoor-517127<span></h2>
+	<h1 class="title3">mca department</h1>
+	<h1 class="title2">A NOVEL MODEL FOR STORY VISUALIZATION USING NLP AND DEEP LEARNING</h1>
+	<h1 class="title4"><span class="title5">Presented By: </span></br>INTURI MURALI</h1>
+	<section class="subheader" id="about">
+        <h1>About Us</h1>
+    </section>
+    <section class="about">
+    <h2>Student</h2>
+    <img src="images/murali.jpg" alt="Our Team" class="about-image">
+    <p>Name : INTURI MURALI</p>
+    <p>Roll Number : 22751F0019</p>
+
+    <h2>Authors</h2>
+    <div class="authors">
+        <div class="author">
+            <img src="images/kalpana.jpg" alt="Our Mission" class="about-image">
+            <p>Dr. M. Kalpana Devi<br> Professor, MCA Department</p>
+        </div>
+        <div class="author">
+            <img src="images/palani.enc" alt="Our Mission" class="about-image">
+            <p>Mr. M E Palanivel <br> Professor, MCA Department</p>
+        </div>
+	<div class="author">
+            <img src="images/pavan.jpg" alt="Our Mission" class="about-image">
+            <p>Mr. J. Pavan Sai <br>Asst.,Professor, MCA Department</p>
+        </div>
+    </div>
+
+    <h2>Features</h2>
+    <ul>
+        <li>Text - to - Video Generation</li>
+        <li>Text - to - image Generation</li>
+        <li>Text - to - audio Generation</li>
+        <li>Text - to - Prompt Generation</li>
+    </ul>
+</section>
+<style>
+    .authors {
+        display: flex;
+        justify-content: space-between; /* Distributes space evenly between the children */
+        gap: 20px; /* Adds space between the divs */
+    }
+    .author {
+        flex: 1; /* Ensures that each author div takes equal space */
+        text-align: center; /* Centers the text and image inside each author div */
+    }
+    .about-image {
+        max-width: 100%; /* Ensures the image does not overflow the div */
+        height: auto; /* Maintains the aspect ratio of the image */
+    }
+.author p{
+	padding-left:70px;
+}
+</style>
+	<section class="subheader" id="video">
+        <h1>Text - to - Video Generation</h1>
+    </section>
+    <section class="about">
+        <h2>Introduction</h2>
+        <p>In this project, we introduce a novel approach to story-to-video generation, leveraging deep learning models to bridge the semantic gap between textual descriptions and their corresponding visual representations. This method aims to enable the automatic generation of video content from textual input, significantly advancing the capabilities of multimedia generation.</p>
+
+        <h2>Key Components</h2>
+        <h3>Recurrent Neural Networks (RNNs)</h3>
+        <p><strong>Role:</strong> RNNs are utilized for effectively encoding the sequential nature of textual descriptions. They capture the temporal dependencies and context within the text, which is crucial for generating coherent video sequences.</p>
+        <p><strong>Variants:</strong> Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) networks are used to mitigate the vanishing gradient problem and to better remember long-term dependencies in the text.</p>
+
+        <h3>Convolutional Neural Networks (CNNs)</h3>
+        <p><strong>Role:</strong> CNNs are employed to extract visual features from video data, ensuring high-quality visual content generation. They are adept at handling the spatial structure of images and videos, making them suitable for generating realistic and detailed video frames.</p>
+
+        <h2>Workflow</h2>
+        <h3>Text Encoding with RNNs</h3>
+        <p><strong>Text Processing:</strong> The input text is processed using RNNs to generate a sequence of hidden states. These hidden states encapsulate the semantics and context of the story, providing a rich representation of the text.</p>
+        <p><strong>Sequence Generation:</strong> The RNN outputs a sequence of vectors, each representing a specific time step in the video.</p>
+
+        <h3>Frame Generation with CNNs</h3>
+        <p><strong>Frame-by-Frame Creation:</strong> Each vector from the RNN is fed into a CNN-based generator, which produces the corresponding video frame. The CNN ensures that each frame is visually consistent and realistic.</p>
+        <p><strong>Spatial Feature Extraction:</strong> The CNN extracts and refines visual features, ensuring that the generated frames accurately represent the textual descriptions.</p>
+
+        <h3>Combining RNN and CNN Outputs</h3>
+        <p><strong>Temporal Smoothing:</strong> The sequence of generated frames is smoothed to ensure temporal coherence, making the video flow naturally.</p>
+        <p><strong>Audio Synchronization:</strong> If audio narration is included, it is synchronized with the generated frames, adding another layer of immersion and coherence to the video.</p>
+
+        <h2>Performance and Evaluation</h2>
+        <p><strong>Quantitative Metrics:</strong> The proposed method outperforms existing approaches in terms of various quantitative metrics, such as frame accuracy, temporal consistency, and overall video quality.</p>
+        <p><strong>Visual Quality:</strong> In qualitative evaluations, the generated videos are found to be more visually appealing and coherent compared to those produced by previous methods.</p>
+
+        <h2>Applications</h2>
+        <p><strong>Video Content Creation:</strong> Automated generation of marketing videos, educational content, and other multimedia resources from textual descriptions.</p>
+        <p><strong>Storytelling:</strong> Enhancing storytelling by creating visual representations of written narratives, useful for entertainment, education, and media production.</p>
+        <p><strong>Multimedia Understanding:</strong> Improving multimedia understanding by generating videos that match textual descriptions, aiding in research and development in AI and content synthesis.</p>
+
+        <h2>Conclusion</h2>
+        <p>The proposed method represents a significant advancement in text-to-video generation, utilizing a combination of RNNs and CNNs to effectively bridge the semantic gap between text and video. This model not only enhances the state-of-the-art in the field but also opens up new avenues for applications in video synthesis, content creation, and multimedia understanding. The ability to automatically generate high-quality video content from textual descriptions has far-reaching implications for various industries and research domains.</p>         
+</section>
+<section class="subheader" id="image">
+        <h1>Text - to - image Generation</h1>
+    </section>
+    <section class="about">
+	<h2>Introduction</h2>
+        <p>In this project, we introduce a novel approach to text-to-image generation, leveraging deep learning models, specifically Generative Adversarial Networks (GANs), to bridge the semantic gap between textual descriptions and their corresponding visual representations. This method aims to enable the automatic generation of high-quality images from textual input, significantly advancing the capabilities of multimedia generation and content creation.</p>
+
+        <h2>Key Components</h2>
+        <h3>Text Encoding</h3>
+        <p><strong>Role:</strong> The text encoding step involves converting the input textual description into a vector representation that captures its semantic meaning. This is typically done using models like Recurrent Neural Networks (RNNs) or Transformer-based architectures.</p>
+        <p><strong>Variants:</strong> Long Short-Term Memory (LSTM) networks and Bidirectional Encoder Representations from Transformers (BERT) are commonly used to process and encode text due to their ability to understand context and semantics.</p>
+
+        <h3>Generative Adversarial Networks (GANs)</h3>
+        <p><strong>Generator Network:</strong> The generator network is responsible for creating images from the encoded text representations. It takes the text embedding and generates an image that visually represents the described content.</p>
+        <p><strong>Discriminator Network:</strong> The discriminator network evaluates the authenticity of the generated images, distinguishing between real images (from the training dataset) and fake images (generated by the generator).</p>
+
+        <h2>Workflow</h2>
+        <h3>Text Encoding</h3>
+        <p><strong>Text Processing:</strong> The input text is processed using an encoder model (like LSTM or BERT) to produce a dense vector representation that captures the semantics of the description.</p>
+        <p><strong>Text Embedding:</strong> This vector, or text embedding, serves as the input to the generator network of the GAN.</p>
+
+        <h3>Image Generation with GANs</h3>
+        <p><strong>Generator Input:</strong> The text embedding is fed into the generator network of the GAN. Optionally, a noise vector can be concatenated with the text embedding to introduce variability in the generated images.</p>
+        <p><strong>Image Creation:</strong> The generator network produces an image that aims to match the textual description. This image is then passed to the discriminator network for evaluation.</p>
+
+        <h3>Adversarial Training</h3>
+        <p><strong>Discriminator Evaluation:</strong> The discriminator network evaluates the generated image against real images from the dataset, providing feedback to the generator.</p>
+        <p><strong>Backpropagation:</strong> Based on the discriminator's feedback, the generator is updated to improve the quality and realism of the generated images. This adversarial process continues until the generator produces images indistinguishable from real ones.</p>
+
+        <h2>Performance and Evaluation</h2>
+        <p><strong>Quantitative Metrics:</strong> The proposed method is evaluated using various quantitative metrics such as Inception Score (IS) and Fréchet Inception Distance (FID) to measure the quality and diversity of the generated images.</p>
+        <p><strong>Visual Quality:</strong> Qualitative evaluations are conducted by human judges to assess the visual appeal and coherence of the images with respect to the textual descriptions.</p>
+
+        <h2>Challenges</h2>
+        <p><strong>Semantic Alignment:</strong> Ensuring that the generated images accurately represent the textual descriptions is challenging. The model must capture subtle details and context from the text.</p>
+        <p><strong>Quality and Realism:</strong> Achieving high visual quality and realism in the generated images requires extensive training and fine-tuning of the GAN model.</p>
+        <p><strong>Text Variability:</strong> Handling diverse and complex textual descriptions while maintaining consistency in image generation poses a significant challenge.</p>
+        <p><strong>Computational Resources:</strong> The training process is computationally intensive, necessitating powerful hardware and significant computational resources.</p>
+
+        <h2>Applications</h2>
+        <p><strong>Content Creation:</strong> Automated generation of images for marketing, advertising, and social media based on textual descriptions.</p>
+        <p><strong>Storytelling:</strong> Enhancing storytelling by creating visual representations of written narratives for books, articles, and media.</p>
+        <p><strong>Educational Tools:</strong> Developing educational materials with illustrative images generated from textual descriptions to aid learning.</p>
+        <p><strong>Accessibility:</strong> Assisting individuals with visual impairments by generating images from textual descriptions, making content more accessible.</p>
+
+        <h2>Conclusion</h2>
+        <p>The proposed text-to-image generation method represents a significant advancement in the field of multimedia generation. By leveraging GANs and advanced text encoding techniques, this approach effectively bridges the semantic gap between text and images, enabling the creation of high-quality visual content from textual descriptions. This model not only enhances the state-of-the-art in text-to-image generation but also opens up new avenues for applications in content creation, storytelling, and multimedia understanding. The ability to automatically generate realistic images from text has far-reaching implications for various industries and research domains.</p>
+	
+</section>
+<section class="subheader" id="audio">
+        <h1>Text - to - Audio Generation</h1>
+    </section>
+    <section class="about">
+<h2>Introduction</h2>
+        <p>In this project, we introduce a novel approach to text-to-audio generation, leveraging deep learning models to bridge the semantic gap between textual descriptions and their corresponding audio representations. This method aims to enable the automatic generation of high-quality audio from textual input, significantly advancing the capabilities of multimedia generation and content creation.</p>
+
+        <h2>Key Components</h2>
+        <h3>Text Encoding</h3>
+        <p><strong>Role:</strong> The text encoding step involves converting the input textual description into a vector representation that captures its semantic meaning. This is typically done using models like Recurrent Neural Networks (RNNs) or Transformer-based architectures.</p>
+        <p><strong>Variants:</strong> Long Short-Term Memory (LSTM) networks and Bidirectional Encoder Representations from Transformers (BERT) are commonly used to process and encode text due to their ability to understand context and semantics.</p>
+
+        <h3>Audio Synthesis Models</h3>
+        <p><strong>Tacotron 2:</strong> A neural network architecture for speech synthesis that converts text into mel-spectrograms, which are then converted to audio waveforms.</p>
+        <p><strong>WaveNet:</strong> A generative model for creating raw audio waveforms, often used in conjunction with Tacotron 2 to produce high-quality audio.</p>
+
+        <h2>Workflow</h2>
+        <h3>Text Encoding</h3>
+        <p><strong>Text Processing:</strong> The input text is processed using an encoder model (like LSTM or BERT) to produce a dense vector representation that captures the semantics of the description.</p>
+        <p><strong>Text Embedding:</strong> This vector, or text embedding, serves as the input to the audio synthesis model.</p>
+
+        <h3>Audio Generation with Tacotron 2 and WaveNet</h3>
+        <p><strong>Mel-Spectrogram Generation:</strong> The text embedding is fed into the Tacotron 2 model, which generates a mel-spectrogram representing the audio's frequency and time domain features.</p>
+        <p><strong>Waveform Synthesis:</strong> The mel-spectrogram is then fed into the WaveNet model, which generates the raw audio waveform from the mel-spectrogram.</p>
+
+        <h3>Post-Processing</h3>
+        <p><strong>Audio Refinement:</strong> The generated audio is refined to ensure clarity and naturalness, removing any artifacts and ensuring smooth transitions.</p>
+        <p><strong>Audio Output:</strong> The final audio output is prepared for playback and download.</p>
+
+        <h2>Performance and Evaluation</h2>
+        <p><strong>Quantitative Metrics:</strong> The proposed method is evaluated using various quantitative metrics such as Mean Opinion Score (MOS) to measure the quality and naturalness of the generated audio.</p>
+        <p><strong>Listening Tests:</strong> Qualitative evaluations are conducted by human listeners to assess the coherence and appeal of the audio with respect to the textual descriptions.</p>
+
+        <h2>Challenges</h2>
+        <p><strong>Text Semantics:</strong> Ensuring that the generated audio accurately represents the textual descriptions is challenging. The model must capture subtle details and context from the text.</p>
+        <p><strong>Quality and Naturalness:</strong> Achieving high audio quality and naturalness requires extensive training and fine-tuning of the audio synthesis models.</p>
+        <p><strong>Text Variability:</strong> Handling diverse and complex textual descriptions while maintaining consistency in audio generation poses a significant challenge.</p>
+        <p><strong>Computational Resources:</strong> The training process is computationally intensive, necessitating powerful hardware and significant computational resources.</p>
+
+        <h2>Applications</h2>
+        <p><strong>Content Creation:</strong> Automated generation of audio for podcasts, audiobooks, and other multimedia resources based on textual descriptions.</p>
+        <p><strong>Storytelling:</strong> Enhancing storytelling by creating audio representations of written narratives for books, articles, and media.</p>
+        <p><strong>Educational Tools:</strong> Developing educational materials with audio generated from textual descriptions to aid learning.</p>
+        <p><strong>Accessibility:</strong> Assisting individuals with visual impairments by generating audio from textual descriptions, making content more accessible.</p>
+
+        <h2>Conclusion</h2>
+        <p>The proposed text-to-audio generation method represents a significant advancement in the field of multimedia generation. By leveraging advanced text encoding and audio synthesis models, this approach effectively bridges the semantic gap between text and audio, enabling the creation of high-quality audio content from textual descriptions. This model not only enhances the state-of-the-art in text-to-audio generation but also opens up new avenues for applications in content creation, storytelling, and multimedia understanding. The ability to automatically generate realistic audio from text has far-reaching implications for various industries and research domains.</p>
+
+
+</section>
+<style>
+        
+
+        .con {
+           
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+
+        .con .contact-image {
+            flex: 0 0 30%;
+            margin-right: 30px;
+        }
+
+        .con .contact-image img {
+            width: 400px;
+            height: 400px;
+            border-radius: 8px;
+        }
+
+        .con .contact-form {
+            flex: 1;
+	   padding-left:100px;
+        }
+
+        .con h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .con .form-group {
+            margin-bottom: 20px;
+        }
+
+        .con .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .con .form-group input[type="text"],
+        .con .form-group input[type="email"],
+        .con .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        .con .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .con .form-group input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .con .form-group input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+<section class="subheader" id="contact">
+        <h1>Contact US</h1>
+    </section>
+    
+
+<div class="con">
+    <div class="contact-image">
+        <img src="images/contact.jpg" alt="Contact Image" >
+    </div>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="contact.php" method="POST">
+            <div class="form-group" >
+                Name:
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                Email:
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                Message:
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</div>
+</section>
+</div>
+<style>
+.subheader {
+	    margin-top:130px;
+            background-color: #5a67d8;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            animation: slideIn 1s ease-out;
+        }
+
+        .subheader h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .about {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .about h2 {
+            color: #5a67d8;
+            border-bottom: 2px solid #5a67d8;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+	    text-align:left;
+	    font-size:20px;
+	    color:black;
+        }
+
+        .about ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .about ul li {
+            background: #f4f4f9;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 5px solid #5a67d8;
+            border-radius: 4px;
+        }
+
+        .about-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .about-image:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+<style>
+.college{
+	
+	text-transform: uppercase;
+	
+}
+.logo1{
+    border-radius:20px;
+    margin-top:100px;
+    text-align:left;
+    width:200px;
+    height:200px;
+}
+.title1{
+	color:blue;
+    font-weight: bold;
+    line-height: 1.5;
+	font-size:30px;
+	padding-left:230px;
+	margin-top:-200px;
+}
+.title2{
+	color:orange;
+    font-weight: bold;
+    line-height: 1.5;
+	font-size:30px;
+	padding-left:100px;
+	margin-top:100px;
+}
+.title3{
+	text-align:center;
+	color:Green;
+    font-weight: bold;
+    line-height: 1.5;
+	font-size:30px;
+	padding-left:0px;
+	margin-top:20px;
+}
+.title4{
+	text-align:right;
+	color:Crimson;
+    font-weight: bold;
+    line-height: 1;
+	font-size:30px;
+	padding-right:70px;
+	margin-top:20px;
+}
+.title5{
+	text-align:right;
+	color:Green;
+    font-weight: bold;
+    line-height: 1;
+	font-size:20px;
+	padding-right:70px;
+	margin-top:20px;
+}
+.subt{
+	padding-left:250px;
+	font-size:25px;
+}
+.subt1{
+	padding-left:350px;
+	font-size:25px;
+}
+</style>
+
+    <!-- JS -->
+ 
+    <script src="js/main.js"></script>
+</body>
+</html>
