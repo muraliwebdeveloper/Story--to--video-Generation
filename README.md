@@ -12,5 +12,19 @@ At its core, the system leverages the complementary strengths of RNNs and CNNs. 
 The implications of this innovation extend far beyond mere automation. By revolutionizing the process of video synthesis and storytelling, the system unlocks new realms of creativity and expression. From educational tutorials to marketing campaigns, from cinematic experiences to virtual tours, the applications of text-to-video generation are vast and varied.
 In this era of digital transformation, the text-to-video generation system emerges as a beacon of innovation, reshaping the landscape of multimedia content creation. As we delve deeper into its capabilities, we embark on a journey of exploration and discovery, where words and images converge to forge compelling narratives and captivate audiences worldwide. Join us as we witness the dawn of a new era in storytelling, where the power of technology fuels creativity and imagination knows no bounds.
 
-
+**Screen Shots**
+____________________________________________________
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/0e9fdea8-3406-4015-9af7-70fa599d6cf4)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/5eca107c-db31-4730-909f-1a7302b6cdfc)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/f9ef555b-f71d-4885-bc86-0135f1ace070)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/122c0b69-b9fa-4e6d-961c-fb0a90a3295f)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/f9f92f53-acb8-49b8-b909-f0ff19b74b90)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/7927b1aa-9631-4471-970b-d9c4e5b2c79a)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/3d59bf22-ae9b-454e-b807-cf3299d1c21c)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/e5af53d9-8d9e-4927-82ff-7efbf095aed5)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/89887ce6-95c4-4625-83b7-b8f2d6424e4a)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/f7e931b7-d920-4fd8-8e06-189a3d019c95)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/2915445b-fc9d-4a2d-ba31-c673aabd2637)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/ec1fa682-3364-422c-8065-b9e5f5645af9)
+![image](https://github.com/muraliwebdeveloper/Story--to--video-Generation/assets/90386191/8df99cc6-231f-4415-9ee0-5d4fffe06c1c)
 
